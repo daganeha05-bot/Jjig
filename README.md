@@ -1,4 +1,3 @@
-# Jjig
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,7 +74,7 @@
 <body>
 
   <div class="quiz-box">
-    <div class="score" id="score">Score: 0/4</div>
+    <div class="score" id="score">Score: 0/5</div>
     <h2 id="question"></h2>
     <div id="options"></div>
     <button class="next-btn" onclick="nextQuestion()">Next</button>
@@ -84,28 +83,28 @@
 <script>
   const quiz = [
     {
-      question: "When did u first fell for me?",
+      question: "When did you first fall for me?",
       options: ["Oct 29", "Nov 26", "Sep 29", "I don't remember 😅"],
       answer: 2
     },
     {
-      question: "What you like the most in me?",
-      options: ["Eyes", "smile", "hands","Waist"],
+      question: "What do you like the most in me?",
+      options: ["Eyes", "Smile", "Hands", "Waist"],
       answer: 0
     },
     {
       question: "Who said 'I love you' first?",
-      options: ["Me", "YouH", "Both", "No one"],
+      options: ["Me", "You", "Both", "No one"],
       answer: 1
     },
     {
       question: "Will you always stay with me?",
       options: ["Yes ❤️", "Forever 💍", "Obviously 😌", "Try me"],
       answer: 1
-    }
-{
+    },
+    {
       question: "Will you be my VALENTINE?",
-      options: ["Yes ❤️", "a big yes", "obviously"],
+      options: ["Yes ❤️", "A big yes", "Obviously"],
       answer: 1
     }
   ];
